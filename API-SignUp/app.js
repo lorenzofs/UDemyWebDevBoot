@@ -49,7 +49,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "lorenzo1: insert api key here"
+    auth: "lorenzo1: "
   };
 
   const request = https.request(url, options, function(response) {
@@ -82,13 +82,18 @@ app.post("/failure", function(req, res) {
 
 // Makes server 'listen' for any requests from client/browser
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000.");
 });
 
 
-// API Key
-//
+// 
+// 9cc5ccbf6beba4
+
 
 // List ID
 // c05b14af29
+
+// 3a6134508
+
+//162aa0f23-us19
