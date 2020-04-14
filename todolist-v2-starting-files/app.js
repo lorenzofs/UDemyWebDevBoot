@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-lorenzo:<password>@cluster0-gb82o.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin-lorenzo:test123@cluster0-gb82o.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
